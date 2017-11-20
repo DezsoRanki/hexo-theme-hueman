@@ -9,6 +9,7 @@
             <div class="article-meta">
                 <%- partial('post/date', { class_name: 'article-date', date_format: null }) %>
                 <%- partial('post/tag') %>
+                阅读数量:<span id="<%= url_for(post.path) %>" class="leancloud_visitors" data-flag-title="<%- post.title %>"></span>次
             </div>
         <% } %>
         <%- partial('post/gallery') %>
@@ -20,4 +21,4 @@
         </footer>
     </div>
 </article>
-<%- partial('comment/index') %>
+<%- partial('comment/livebe') %>
