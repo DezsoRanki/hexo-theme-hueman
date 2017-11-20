@@ -8,14 +8,14 @@ menu:
 # Customize
 customize:
     logo:
-        width: 165
-        height: 60
-        url: images/logo-header.png
-    theme_color: '#006bde'
+        width: 765
+        height: 100
+        url: images/head.png
+    theme_color: '#4F9D9D'
     highlight: androidstudio
     sidebar: left # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: css/images/head.png # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
         twitter: /
         facebook: /
@@ -27,10 +27,10 @@ customize:
 # Widgets
 widgets:
     - recent_posts
+    - tagcloud
     - category
     - archive
     - tag
-    - tagcloud
     - links
 
 # Search
